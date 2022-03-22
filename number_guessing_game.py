@@ -29,7 +29,7 @@ def start_game():
     
     if guess == number:
       print("You got it!")
-      print(attempts)
+      print('It took you ' + str(attempts) + ' attempts to guess the number.')
       play_again = input('Play again? Enter "yes or no" ')
       if play_again == "y" or play_again == "yes" or play_again == "YES" or play_again == "Yes":
         start_game()
